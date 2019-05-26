@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800&display=swap');
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+.container{
+	width: 1060px;
+	margin: auto;
+}
+header{
+	height: 100px;
+	padding: 30px 0;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo a{
+	color: #28377e;
+	text-decoration: none;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+.logo a h1{}
+.logo a h1:hover{}
+
+nav{
+	text-align: right;
+	width: 80%;
+	overflow: hidden;
+}
+nav ul{}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+
+}
+nav ul li a{
+	font-size: 12px;
+	color: #204f87;
+	text-decoration: none;
+	font-weight: 600;
+	display: block;
+
+}
+nav ul li a:hover{}
+
+.banner-section{
+	min-height: 700px;
+	background-image:url(../images/office0.jpg),url(../images/office1.jpg);
+	background-size:contain,cover;
+	background-repeat: no-repeat,no-repeat;
+	background-position: left,center;
+	position: relative;
+}
+.banner-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+}
+.banner-content h1{
+	color: #ffffff;
+	font-size: 50px;
+	max-width: 500px;
+}
+.click-down{
+	position: absolute;
+	bottom: 80px;
+	color: #ffffff;
+	left: 50%;
+	transform: translateX(-50%);
+}
+ 
+ .who-we-are-section{
+ 	padding: 120px 0 200px;
+ 	
+ }
+ .who-we-are-content{
+ 	width: 70%;
+ 	float: left;
+ 	padding-right: 150px;
+ 	
+ }
+ .heading{}
+ /*
+ .heading hr{
+ 	border-color: #f2622c;
+ 	border-width: 20px;
+ }*/
+ .heading span{
+ 	width: 60px;
+ 	background: #f2622c;
+ 	height: 5px;
+ 	display: block;
+ }
+  .heading h2{
+  	font-size: 36px;
+  	color: #204f87;
+  	text-transform: uppercase;
+  	padding : 30px 0;
+  }
+  p{
+  	color: #b0b0b1;
+  	font-size: 14px;
+  	line-height: 1.6;
+  	margin-bottom: 30px;
+  }
+  .who-we-are-img{
+  	width: 30%;
+  	float: left;
+  }
+  .who-we-are-img img{}
+
+.what-we-do-section{
+	background-color: #f7f8f8;
+	background-image: url(../images/office6.jpg);
+	background-repeat: no-repeat;
+	background-position:right bottom;
+	padding: 80px 0 120px;
+}
+.what-we-do{
+	width: 33.33%;
+	float: left;
+	padding: 10px;
+}
+.what-we-do-content{
+	position: relative;
+}
+ .what-we-do-content img{
+ 	}
+.what-we-do-content h3{
+	position: absolute;
+	color: #ffffff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.what-we-do-content a{
+	color: #ffffff;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.what-we-do-section .heading{
+	text-align: center;
+	margin-bottom: 80px;
+}
+.what-we-do-section .heading span{
+	margin: auto;
+}
